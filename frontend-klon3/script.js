@@ -9,9 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     crew1.style.width = "100%";
     crew1.style.display = "flex";
-
-
-
+    
     crew2.style.display = "none";
     crew3.style.display = "none";
 });
@@ -71,8 +69,6 @@ document.addEventListener("DOMContentLoaded", function () {
     moon1.style.width = "100%";
     moon1.style.display = "flex";
 
-
-
     mars1.style.display = "none";
     europa1.style.display = "none";
     titan1.style.display = "none";
@@ -123,7 +119,6 @@ function europa2() {
 }
 
 
-
 function titan2() {
     const moon1 = document.getElementById("moon1");
     const mars1 = document.getElementById("mars1");
@@ -146,7 +141,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const techno1 = document.getElementById("techno1");
     const techno2 = document.getElementById("techno2");
     const techno3 = document.getElementById("techno3");
-
 
     techno1.style.width = "100%";
     techno1.style.display = "flex";
@@ -171,12 +165,10 @@ function tikla1() {
 }
 
 
-
 function tikla2() {
     const techno1 = document.getElementById("techno1");
     const techno2 = document.getElementById("techno2");
     const techno3 = document.getElementById("techno3");
-
 
     techno2.style.width = "100%";
     techno2.style.display = "flex";
@@ -187,14 +179,10 @@ function tikla2() {
 }
 
 
-
-
-
 function tikla3() {
     const techno1 = document.getElementById("techno1");
     const techno2 = document.getElementById("techno2");
     const techno3 = document.getElementById("techno3");
-
 
     techno3.style.width = "100%";
     techno3.style.display = "flex";
