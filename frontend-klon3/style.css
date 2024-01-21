@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* ####################################################################      HOME   */
+.hero-image {
+    background-image: url(space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    height: 110vh;
+}
+
+.hr1 {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 3px;
+    margin-top: 65px;
+
+}
+
+.nav1 {
+    width: 85%;
+    backdrop-filter: blur(40px);
+
+
+
+}
+
+.nav a {
+
+    text-align: center;
+}
+
+
+.ex {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.space {
+    font-size: 180px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.alt {
+    position: relative;
+    top: 250px;
+}
+
+/* ####################################################      DESTINATION    */
+
+.text-img {
+    background-image: url(space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg);
+    height: 110vh;
+    background-size: cover;
+}
+
+.pıck {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+   
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+}
+
+/* ##################################    CREW */
+.text-image {
+    background-image: url(space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg);
+    height: 109vh;
+    background-size: cover;
+}
+
+
+#btn3,
+#btn2,
+#btn1 {
+    border-radius: 50% !important;
+    height: 100px;
+    background-color: rgb(24, 35, 51);
+    color: white;
+
+}
+
+#btn1:hover {
+    background-color: rgb(30, 68, 124);
+    cursor: pointer;
+}
+
+#btn2:hover {
+    background-color: rgb(30, 68, 124);
+    cursor: pointer;
+}
+
+#btn3:hover {
+    background-color: rgb(30, 68, 124);
+    cursor: pointer;
+}
+
+
+
+
+
+.p1 {
+    display: flex;
+    align-items: center !important;
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.img2 {
+    width: 347px;
+}
+
+.img1 {
+    width: 450px;
+}
+
+
+.img3 {
+    width: 385px;
+}
+
+/* ##################################################### TECHNOLOGY */
+
+
+.hero-img{
+    background-image: url(space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.btn5,
+.btn6,
+.btn7{
+    border-radius: 50%;
+    height: 9rem;
+    background-color:rgb(3, 10, 22) ;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn5:hover{
+    background-color: white;
+    color: black;
+}
+.btn6:hover {
+    background-color: white;
+    color: black;
+}
+.btn7:hover {
+    background-color: white;
+    color: black;
+}
+
+.termo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+.lorem{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
