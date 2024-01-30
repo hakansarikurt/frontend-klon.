@@ -161,7 +161,6 @@ function tikla1() {
 
     techno2.style.display = "none";
     techno3.style.display = "none";
-
 }
 
 
@@ -175,7 +174,6 @@ function tikla2() {
 
     techno1.style.display = "none";
     techno3.style.display = "none";
-
 }
 
 
@@ -189,7 +187,6 @@ function tikla3() {
 
     techno2.style.display = "none";
     techno1.style.display = "none";
-
 }
 
 
