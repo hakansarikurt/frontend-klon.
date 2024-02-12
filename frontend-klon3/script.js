@@ -134,7 +134,6 @@ function titan2() {
 }
 
 
-
 /* ##################################################### TECHNOLOGY */
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -149,12 +148,10 @@ document.addEventListener("DOMContentLoaded", function () {
     techno3.style.display = "none";
 });
 
-
 function tikla1() {
     const techno1 = document.getElementById("techno1");
     const techno2 = document.getElementById("techno2");
     const techno3 = document.getElementById("techno3");
-
 
     techno1.style.width = "100%";
     techno1.style.display = "flex";
@@ -188,17 +185,3 @@ function tikla3() {
     techno2.style.display = "none";
     techno1.style.display = "none";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
